@@ -1,0 +1,21 @@
+*.swp
+*.lock
+.DS_Store
+Thumbs.db
+
+# Xcode
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.xcresult
+DerivedData/
+build/
+Config/LocalSigning.xcconfig
+
+# CocoaPods
+Pods/
+
+# SPM
+.build/
+Packages/
+Package.resolved

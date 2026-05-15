@@ -1,0 +1,4 @@
+// Shared signing configuration.
+// Put local-only signing values in LocalSigning.xcconfig.
+
+#include? "LocalSigning.xcconfig"

@@ -1,0 +1,19 @@
+name: Metronome
+options:
+  bundleIdPrefix: com.alexey.metronome
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  Metronome:
+    type: application
+    platform: iOS
+    sources:
+      - path: Metronome
+    settings:
+      base:
+        INFOPLIST_FILE: Metronome/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.alexey.metronome.app
+        CODE_SIGN_STYLE: Automatic
+    configFiles:
+      Debug: Config/Signing.xcconfig
+      Release: Config/Signing.xcconfig
