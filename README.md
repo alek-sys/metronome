@@ -4,6 +4,17 @@ A clean, delightful iOS metronome built with SwiftUI. Features a gorgeous tempo 
 
 Requires iOS 17.0+.
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/tempo.png" alt="Tempo picker screen" width="240">
+  <img src="screenshots/manual.png" alt="Manual BPM screen" width="240">
+</p>
+
+<p align="center">
+  <img src="screenshots/lock.jpg" alt="Lock screen controls" width="360">
+</p>
+
 # Contribution guide
 
 Word of caution - this whole app is vibe-coded — I never looked at the code, I debugged and fixed issues by copy-paste from XCode to the agent. And yet it is the best metronome app for iOS so far. Living on a vibe. Catching the groove. Surfing the hype. I tested on my phone and it kind of worked. But I've got no idea if that works on others. PRs aren't very welcome simply because I think this masterpiece is done, nothing more can be added. But you can try regardless. And yes, I know pulsing button goes out of sync with the BPM. At least the metronome plays at the right tempo. Most of the time, at least.
